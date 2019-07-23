@@ -1,0 +1,7 @@
+{
+  "command": "build",
+  "outputs": [ 
+    { "src": "/", "dst": "/" }
+  ],
+  "log": true
+}
