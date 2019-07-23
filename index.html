@@ -23,7 +23,10 @@
 							<li><a href="#repos">Components</a></li>
                             <li><a href="#story">Our story</a></li>
 							<li><a href="#community">Community and Research</a></li>
-							<li><a href="#contact">Get in touch</a></li>
+                            <li><a href="#users">Users</a></li>
+                            <li><a href="#started">Getting Started</a></li>
+                            <li><a href="#contact">Get in touch</a></li>
+                            <li><a href="#ip">Licensing and support</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -140,20 +143,44 @@ datastructures, utilities for functional programming but also a graph-based incr
 					</section>
                     
                     
+                    
                     <section id="community" class="wrapper style1 fade-up">
 						<div class="inner">
                             <h2>The platform in the community</h2>
 							<p>
-                            We regularly join conferences or give talks in meetups and academic conferences. Last year we for example gave aardvark talks at Wigner Research Center in Budapest.
-                            <h3>Functional Programming VS Efficient Computer Graphics:</h3>
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/9XkE0_4HoOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <h3>Functional Programming in the wild:</h3>
-
-                              <iframe width="300" height="200" src="https://www.youtube.com/embed/vIqdSngwHFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h3>
-                              <h3>FShade:</h3>
-                               <iframe width="300" height="200" src="https://www.youtube.com/embed/_vVJ6aRODJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h3>
-                        
+                            We regularly join conferences or give talks in meetups and academic conferences. Some selected contributions are:
                             </p>
+                            
+                            <div class="features">
+								<section>
+									<span class="icon solid major fa-video"></span>
+									<h3>FP vs Efficiency</h3>
+									<p>This talk describes why aardvark is functional and fast. Talk at <a href="https://gpuday.com/gpu-day-2018">GPU Day 2018</a></p>
+                                    <p><iframe width="300" height="200" src="https://www.youtube.com/embed/9XkE0_4HoOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+								</section>
+								 <section>
+									<span class="icon solid major fa-video"></span>
+									<h3>FP in the Wild</h3>
+									<p>Talk at <a href="https://gpuday.com/gpu-day-2018">GPU Day 2018</a></p><p><iframe width="300" height="200" src="https://www.youtube.com/embed/vIqdSngwHFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+								</section>
+								<section>
+									<span class="icon solid major fa-video"></span>
+									<h3>FShade</h3>
+									<p>Talk at <a href="https://gpuday.com/gpu-day-2018">GPU Day 2018</a></p><p><iframe width="300" height="200" src="https://www.youtube.com/embed/_vVJ6aRODJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+								</section>
+                                <section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>F# community</h3>
+									<p>
+                                    Recently aardvark components got some attention in the F# community, e.g.
+                                    <ul>
+                                    <li><a href="https://www.reddit.com/r/fsharp/comments/cbaaju/anyone_know_anything_about_the_aardvark/">Post on reddit</a></li>
+                                    <li>Mention in <a href="https://sergeytihon.com/2019/07/13/f-weekly-28-2019-tickets-for-fableconf-are-on-sale/">F# weekly</a>
+                                    </ul>
+                                    </p>
+								</section>
+							</div>
+							
                         
 							<h2>The platform in academia</h2>
 							<p>There is a bunch of basic research done in the base modules, some of which has been published:
@@ -214,13 +241,73 @@ datastructures, utilities for functional programming but also a graph-based incr
 
                         </div>
 					</section>
+                    
+ 
+ 
+                    <section id="users" class="wrapper style2 fade-up">
+						<div class="inner">
+							<h2>Users of the platform</h2>
+							<p>
+                            The platform is used in many research and industry projects (we will add more awesome results here):
+                            </p>
+                            <div class="features">
+								<section>
+									<span class="icon solid major fa-video"></span>
+									<h3>Fast light simulation</h3>
+									<p><a href="https://www.vrvis.at/research/projects/hilite/">HILITE</a> - High Quality Lighting Simulation: A dynamic, interactive, realistic real-time lighting simulation for complex architectural environments.
+                                    <p>
+								</section>
+								 <section>
+									<span class="icon solid major fa-video"></span>
+									<h3>PRo3D</h3>
+									<p><a href="phttp://pro3d.space/">PRo3D</a>, short for Planetary Robotics 3D Viewer, is an interactive 3D visualization tool to allow planetary scientists to work with high-resolution 3D reconstructions of the Martian surface.
+                                    </p>
+								</section>
+								
+							</div>                            
+                        </div>
+					</section>
+ 
+                    
+                    <section id="started" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Getting started</h2>
+							<p>
+                            <a href="https://github.com/aardvark-platform">Github</a> is
+                            a good starting point. Since the platform contains a lot of
+                            repositories it really depends on your needs. All packages
+                            are on <a href="n">nuget --- feel free to mix and match the
+                            packages you need. 
+                            </p>	
+                        </div>
+					</section>
 
 				<!-- Three -->
-					<section id="contact" class="wrapper style1 fade-up">
+					<section id="contact" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
 							<p>Our community mostly lives on <a href="https://gitter.im/aardvark-platform/Lobby">gitter</a> and on <a href="https://github.com/aardvark-platform">github.</a>
                             If you are interested in projects, customization or support, please contact us on <a href="mailto:info@aardvark.graphics">info@aardvark.graphics</a>.
+                            </p>	
+                        </div>
+					</section>
+                    
+                    <section id="ip" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Licensing and support</h2>
+							<p>
+                            The platform constitutes a diverse set of repositories, libraries and other content.
+                            Since the very early days of aardvark, we lived the
+                            philosophy of reusing as much as possible.
+                            Nowadays the organizational structure of the project also
+                            reflects our constant dedication to synergies.
+                            In order to provide a balanced and fair situation for all, we now use a mix of permissive and dual licenced libraries.  
+                            <img class="image" style="max-width:80%;margin-left:-13px;margin-top:5px" src="images/bigPicture.svg"></img>
+                            <br>
+                            <br>
+                            Currently, the main contributors of libraries in the 
+                            aardvark ecosystem are <a href="https://www.vrvis.at/en/">VRVis Forschungszentrum GmbH.</a> and the newly founded startup <a href="https://aardworx.com/">Aardworx GmbH</a>, both currently situated in Vienna, Austria.
+                            For VRVis, large parts of the libraries are also a strategic research projects, used by many (mostly funded) research projects.                            
                             </p>	
                         </div>
 					</section>
