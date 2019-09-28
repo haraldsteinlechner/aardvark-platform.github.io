@@ -20,13 +20,13 @@
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#intro">Aardvark Platform</a></li>
-							<li><a href="#repos">Components</a></li>
-                            <li><a href="#story">Our story</a></li>
-							<li><a href="#community">Community and Research</a></li>
-                            <li><a href="#users">Users</a></li>
+							<li><a href="#intro">Aardvark Platform</a></li>							
                             <li><a href="#started">Getting Started</a></li>
                             <li><a href="#contact">Get in touch</a></li>
+							<li><a href="#repos">Components</a></li>
+							<li><a href="#community">Community and Research</a></li>
+                            <li><a href="#users">Users</a></li>
+                            <li><a href="#story">Our story</a></li>
                             <li><a href="#ip">Licensing and support</a></li>
 						</ul>
 					</nav>
@@ -40,7 +40,7 @@
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<h1>The Aardvark Platform</h1>
-							<p>Awesome libraries for interactive high-performance graphics applications.       
+							<p>Awesome libraries for interactive high-performance visual computing and graphics applications.       
                             </p>
 							<!-- <ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
@@ -49,7 +49,7 @@
 					</section>
 
 				
-					<section id="started" class="wrapper style3 fade-up">
+					<section id="started" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Getting started</h2>
 							<p>
@@ -63,7 +63,7 @@
 						</div>
 					</section>
 
-					<section id="contact" class="wrapper style1 fade-up">
+					<section id="contact" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>Meet the community</h2>
 							<p>Join us on
@@ -145,71 +145,7 @@
 						</section>
 					</section>
 
-				<!-- Two -->
-					<section id="story" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Our story</h2>
-							<p>
-								Aardvark was born at 
-								<a target="_blank" rel="noopener noreferrer" href="http://www.vrvis.at">VRVis Research Center</a>
-								in 2006.<br>
-								It started out as a research prototype for rendering engine architecture written in C# by the late 
-								<a target="_blank" rel="noopener noreferrer" href="https://www.cg.tuwien.ac.at/staff/RobertTobler.html">Robert F. Tobler</a>.
-								<br>
-								Very quickly, the effort was joined by more and more core contributors.
-								Lots of ideas were tried out and many research and industry projects were implemented on top of an ever growing platform.
-								Out of necessity, the focus shifted more and more towards functional programming patterns to enable easy-to-use abstractions, 
-								reusability and robustness. First in C#, then in F#.
-								Today, most of the code is published under a permissive license.
-							</p>
-							<h2>Our roadmap</h2>
-							<p>
-								Right now, all the platform and community projects contain more than 25 repositories
-								(<a target="_blank" rel="noopener noreferrer" href="https://github.com/aardvark-platform">platform</a> and 
-								<a target="_blank" rel="noopener noreferrer" href="https://github.com/aardvark-community">community</a>)
-								and we hope for our community to grow further.
-								The core contributors feel highly connected to all the projects and support it via work at 
-								<a target="_blank" rel="noopener noreferrer" href="https://www.vrvis.at/"><b>VRVis Research Center</b></a> and the newly founded startup
-								<a target="_blank" rel="noopener noreferrer" href="https://aardworx.com/"><b>Aardworx</b></a>.
-                            </p>
-							<!-- <div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								 <section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section> 
-							</div>
-							-->
-                            <!-- <ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul> -->
-						</div>
-					</section>
+				
                     
                     
                     
@@ -220,7 +156,34 @@
                             We regularly join conferences or give talks in meetups and academic conferences. Some selected contributions are:
                             </p>
                             
-                            <div class="features">
+                            <div class="features">								
+								<section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>FSharp.Data.Adaptive</h3>
+									<p>
+										Our tried and tested 
+										incremental computation engine
+										will be made available as a standalone library.
+									</p>
+									<p>
+										
+										<ul>
+											<li>
+												<b>F# Community Project</b>
+												<a target="_blank" rel="noopener noreferrer" href="https://github.com/fsprojects/FSharp.Data.Adaptive">
+													FSharp.Data.Adaptive
+												</a>
+												<br/><br/>
+											</li>
+										<li>
+											<b>Original Implementation</b>
+											<a target="_blank" rel="noopener noreferrer" href="https://github.com/aardvark-platform/aardvark.base/tree/master/src/Aardvark.Base.Incremental">
+												Aardvark.Base.Incremental
+											</a>
+										</li>
+										</ul>
+									</p>
+								</section>
 								<section>
 									<span class="icon solid major fa-video"></span>
 									<h3>FP vs Efficiency</h3>
@@ -257,6 +220,7 @@
 									<h3>F# community</h3>
 									<p>
 										<ul>
+											
 											<li>
 												<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/dsyme/status/1169912169980399616">Talk at FableConf 2019 in Antwerp, Belgium.</a>
 											</li>
@@ -386,8 +350,74 @@
 							</div>                            
                         </div>
 					</section>
+
+					<!-- Two -->
+					<section id="story" class="wrapper style1 fade-up">
+							<div class="inner">
+								<h2>Our story</h2>
+								<p>
+									Aardvark was born at 
+									<a target="_blank" rel="noopener noreferrer" href="http://www.vrvis.at">VRVis Research Center</a>
+									in 2006.<br>
+									It started out as a research prototype for rendering engine architecture written in C# by the late 
+									<a target="_blank" rel="noopener noreferrer" href="https://www.cg.tuwien.ac.at/staff/RobertTobler.html">Robert F. Tobler</a>.
+									<br>
+									Very quickly, the effort was joined by more and more core contributors.
+									Lots of ideas were tried out and many research and industry projects were implemented on top of an ever growing platform.
+									Out of necessity, the focus shifted more and more towards functional programming patterns to enable easy-to-use abstractions, 
+									reusability and robustness. First in C#, then in F#.
+									Today, most of the code is published under a permissive license.
+								</p>
+								<h2>Our roadmap</h2>
+								<p>
+									Right now, all the platform and community projects contain more than 25 repositories
+									(<a target="_blank" rel="noopener noreferrer" href="https://github.com/aardvark-platform">platform</a> and 
+									<a target="_blank" rel="noopener noreferrer" href="https://github.com/aardvark-community">community</a>)
+									and we hope for our community to grow further.
+									The core contributors feel highly connected to all the projects and support it via work at 
+									<a target="_blank" rel="noopener noreferrer" href="https://www.vrvis.at/"><b>VRVis Research Center</b></a> and the newly founded startup
+									<a target="_blank" rel="noopener noreferrer" href="https://aardworx.com/"><b>Aardworx</b></a>.
+								</p>
+								<!-- <div class="features">
+									<section>
+										<span class="icon solid major fa-code"></span>
+										<h3>Lorem ipsum amet</h3>
+										<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									</section>
+									 <section>
+										<span class="icon solid major fa-lock"></span>
+										<h3>Aliquam sed nullam</h3>
+										<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									</section>
+									<section>
+										<span class="icon solid major fa-cog"></span>
+										<h3>Sed erat ullam corper</h3>
+										<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									</section>
+									<section>
+										<span class="icon solid major fa-desktop"></span>
+										<h3>Veroeros quis lorem</h3>
+										<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									</section>
+									<section>
+										<span class="icon solid major fa-link"></span>
+										<h3>Urna quis bibendum</h3>
+										<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									</section>
+									<section>
+										<span class="icon major fa-gem"></span>
+										<h3>Aliquam urna dapibus</h3>
+										<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									</section> 
+								</div>
+								-->
+								<!-- <ul class="actions">
+									<li><a href="generic.html" class="button">Learn more</a></li>
+								</ul> -->
+							</div>
+						</section>
  
-                    <section id="ip" class="wrapper style1 fade-up">
+                    <section id="ip" class="wrapper style2 fade-up">
 						<div class="inner">
 							<h2>Licensing and support</h2>
 							<p>
